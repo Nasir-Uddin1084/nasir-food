@@ -35,6 +35,7 @@
 		background-repeat: no-repeat;
 		background-position: center;
 		cursor: pointer;
+		color: #111;
 	}
 	.menuToggle.active {
 		background: url(/images/close.png);

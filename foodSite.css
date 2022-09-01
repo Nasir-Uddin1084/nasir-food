@@ -69,8 +69,9 @@ header .navigation li a:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: url(images/bg.jpg);
+	background: url(images/bg.jpg) no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 .banner .content {
 	max-width: 900px;
@@ -102,9 +103,6 @@ header .navigation li a:hover {
 /* Banner part end */
 /* About part start */
 section {
-	background: url(images/aboutUs.jpg) no-repeat;
-	background-position: center;
-	background-size: cover;
 	padding: 100px;
 }
 .row {
