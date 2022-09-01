@@ -24,7 +24,7 @@ header {
 	align-items: center;
 	transition: 0.5s;
 }
-header .sticky {
+header.sticky {
 	background: #fff;
 	padding: 10px 100px;
 	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
@@ -35,7 +35,7 @@ header .logo {
 	font-style: 2em;
 	text-decoration: none;
 }
-header .sticky .logo {
+header.sticky .logo {
 	color: #111;
 }
 header .logo span {
@@ -54,7 +54,7 @@ header .navigation li a {
 	color: #fff;
 	font-weight: 600;
 }
-header .sticky .navigation li a {
+header.sticky .navigation li a {
 	color: #111;
 }
 header .navigation li a:hover {
